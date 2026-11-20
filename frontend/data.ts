@@ -18,6 +18,14 @@ export type Player = (typeof players)[number];
 
 const data: ({ date: string } & Partial<Record<Player, number>>)[] = [
   {
+    date: '2026-11-20',
+    Lotte: 17_974,
+    Malin: 14_660,
+    'Tor Arve': 14_311,
+    Thomas: 13_343,
+    Glen: 8_125,
+  },
+  {
     date: '2026-11-13',
     'Tor Arve': 20_414,
     Lotte: 18_190,
